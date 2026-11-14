@@ -1,0 +1,1053 @@
+{
+  "accounts": {
+    "admin_w": {
+      "ips": [
+        "10.0.0.5"
+      ],
+      "services": [
+        "HOST/wks01.corp.local",
+        "HTTP/intranet.corp.local",
+        "cifs/fs01.corp.local",
+        "cifs/print01.corp.local",
+        "krbtgt",
+        "ldap/DC01.corp.local"
+      ],
+      "enc_types": {
+        "AES256-CTS-HMAC-SHA1-96": 38
+      },
+      "events": 38,
+      "failures": 0,
+      "first_seen": "2026-11-02T08:17:01Z",
+      "last_seen": "2026-11-09T10:56:54Z"
+    },
+    "alice": {
+      "ips": [
+        "10.0.0.11",
+        "10.0.0.66"
+      ],
+      "services": [
+        "HOST/wks01.corp.local",
+        "HTTP/intranet.corp.local",
+        "HTTP/web01.corp.local",
+        "HTTP/web02.corp.local",
+        "HTTP/web03.corp.local",
+        "HTTP/web04.corp.local",
+        "HTTP/web05.corp.local",
+        "HTTP/web06.corp.local",
+        "HTTP/web07.corp.local",
+        "HTTP/web08.corp.local",
+        "HTTP/web09.corp.local",
+        "HTTP/web10.corp.local",
+        "HTTP/web11.corp.local",
+        "HTTP/web12.corp.local",
+        "HTTP/web13.corp.local",
+        "HTTP/web14.corp.local",
+        "HTTP/web15.corp.local",
+        "HTTP/web16.corp.local",
+        "HTTP/web17.corp.local",
+        "HTTP/web18.corp.local",
+        "HTTP/web19.corp.local",
+        "HTTP/web20.corp.local",
+        "MSSQLSvc/sql01.corp.local:1433",
+        "MSSQLSvc/sql02.corp.local:1433",
+        "MSSQLSvc/sql03.corp.local:1433",
+        "MSSQLSvc/sql04.corp.local:1433",
+        "MSSQLSvc/sql05.corp.local:1433",
+        "MSSQLSvc/sql06.corp.local:1433",
+        "MSSQLSvc/sql07.corp.local:1433",
+        "MSSQLSvc/sql08.corp.local:1433",
+        "MSSQLSvc/sql09.corp.local:1433",
+        "MSSQLSvc/sql10.corp.local:1433",
+        "MSSQLSvc/sql11.corp.local:1433",
+        "MSSQLSvc/sql12.corp.local:1433",
+        "MSSQLSvc/sql13.corp.local:1433",
+        "MSSQLSvc/sql14.corp.local:1433",
+        "MSSQLSvc/sql15.corp.local:1433",
+        "MSSQLSvc/sql16.corp.local:1433",
+        "MSSQLSvc/sql17.corp.local:1433",
+        "MSSQLSvc/sql18.corp.local:1433",
+        "MSSQLSvc/sql19.corp.local:1433",
+        "MSSQLSvc/sql20.corp.local:1433",
+        "cifs/fs01.corp.local",
+        "cifs/print01.corp.local",
+        "krbtgt",
+        "ldap/DC01.corp.local",
+        "svc_app01/app01.corp.local",
+        "svc_app02/app02.corp.local",
+        "svc_app03/app03.corp.local",
+        "svc_app04/app04.corp.local",
+        "svc_app05/app05.corp.local",
+        "svc_app06/app06.corp.local",
+        "svc_app07/app07.corp.local",
+        "svc_app08/app08.corp.local",
+        "svc_app09/app09.corp.local",
+        "svc_app10/app10.corp.local",
+        "svc_app11/app11.corp.local",
+        "svc_app12/app12.corp.local",
+        "svc_app13/app13.corp.local",
+        "svc_app14/app14.corp.local",
+        "svc_app15/app15.corp.local",
+        "svc_app16/app16.corp.local",
+        "svc_app17/app17.corp.local",
+        "svc_app18/app18.corp.local",
+        "svc_app19/app19.corp.local",
+        "svc_app20/app20.corp.local"
+      ],
+      "enc_types": {
+        "AES256-CTS-HMAC-SHA1-96": 47,
+        "RC4-HMAC": 60
+      },
+      "events": 107,
+      "failures": 0,
+      "first_seen": "2026-11-02T08:16:43Z",
+      "last_seen": "2026-11-09T09:34:56Z"
+    },
+    "bob": {
+      "ips": [
+        "10.0.0.12"
+      ],
+      "services": [
+        "HOST/wks01.corp.local",
+        "HTTP/intranet.corp.local",
+        "cifs/fs01.corp.local",
+        "cifs/print01.corp.local",
+        "krbtgt",
+        "ldap/DC01.corp.local"
+      ],
+      "enc_types": {
+        "AES256-CTS-HMAC-SHA1-96": 43
+      },
+      "events": 43,
+      "failures": 0,
+      "first_seen": "2026-11-02T08:12:10Z",
+      "last_seen": "2026-11-09T12:24:54Z"
+    },
+    "carol": {
+      "ips": [
+        "10.0.0.13"
+      ],
+      "services": [
+        "HOST/wks01.corp.local",
+        "HTTP/intranet.corp.local",
+        "cifs/fs01.corp.local",
+        "cifs/print01.corp.local",
+        "krbtgt",
+        "ldap/DC01.corp.local"
+      ],
+      "enc_types": {
+        "AES256-CTS-HMAC-SHA1-96": 50
+      },
+      "events": 50,
+      "failures": 0,
+      "first_seen": "2026-11-02T08:13:24Z",
+      "last_seen": "2026-11-09T10:26:04Z"
+    },
+    "dave": {
+      "ips": [
+        "10.0.0.14",
+        "10.0.9.99"
+      ],
+      "services": [
+        "CIFS/DC01.corp.local",
+        "HOST/wks01.corp.local",
+        "HTTP/intranet.corp.local",
+        "LDAP/DC01.corp.local",
+        "cifs/DC01.corp.local",
+        "cifs/fs01.corp.local",
+        "cifs/print01.corp.local",
+        "krbtgt",
+        "ldap/DC01.corp.local"
+      ],
+      "enc_types": {
+        "AES256-CTS-HMAC-SHA1-96": 39
+      },
+      "events": 40,
+      "failures": 1,
+      "first_seen": "2026-11-02T08:10:22Z",
+      "last_seen": "2026-11-09T22:16:01Z"
+    },
+    "svc_backup": {
+      "ips": [
+        "10.0.0.31"
+      ],
+      "services": [
+        "cifs/backup01.corp.local",
+        "krbtgt"
+      ],
+      "enc_types": {
+        "AES256-CTS-HMAC-SHA1-96": 40
+      },
+      "events": 40,
+      "failures": 0,
+      "first_seen": "2026-11-02T01:04:44Z",
+      "last_seen": "2026-11-09T03:00:00Z"
+    },
+    "user00": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:00Z",
+      "last_seen": "2026-11-09T03:12:00Z"
+    },
+    "user01": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:03Z",
+      "last_seen": "2026-11-09T03:12:03Z"
+    },
+    "user02": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:06Z",
+      "last_seen": "2026-11-09T03:12:06Z"
+    },
+    "user03": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:09Z",
+      "last_seen": "2026-11-09T03:12:09Z"
+    },
+    "user04": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:12Z",
+      "last_seen": "2026-11-09T03:12:12Z"
+    },
+    "user05": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:15Z",
+      "last_seen": "2026-11-09T03:12:15Z"
+    },
+    "user06": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:18Z",
+      "last_seen": "2026-11-09T03:12:18Z"
+    },
+    "user07": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:21Z",
+      "last_seen": "2026-11-09T03:12:21Z"
+    },
+    "user08": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:24Z",
+      "last_seen": "2026-11-09T03:12:24Z"
+    },
+    "user09": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:27Z",
+      "last_seen": "2026-11-09T03:12:27Z"
+    },
+    "user10": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:30Z",
+      "last_seen": "2026-11-09T03:12:30Z"
+    },
+    "user11": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:33Z",
+      "last_seen": "2026-11-09T03:12:33Z"
+    },
+    "user12": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:36Z",
+      "last_seen": "2026-11-09T03:12:36Z"
+    },
+    "user13": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:39Z",
+      "last_seen": "2026-11-09T03:12:39Z"
+    },
+    "user14": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:42Z",
+      "last_seen": "2026-11-09T03:12:42Z"
+    },
+    "user15": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:45Z",
+      "last_seen": "2026-11-09T03:12:45Z"
+    },
+    "user16": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:48Z",
+      "last_seen": "2026-11-09T03:12:48Z"
+    },
+    "user17": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:51Z",
+      "last_seen": "2026-11-09T03:12:51Z"
+    },
+    "user18": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:54Z",
+      "last_seen": "2026-11-09T03:12:54Z"
+    },
+    "user19": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:12:57Z",
+      "last_seen": "2026-11-09T03:12:57Z"
+    },
+    "user20": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:00Z",
+      "last_seen": "2026-11-09T03:13:00Z"
+    },
+    "user21": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:03Z",
+      "last_seen": "2026-11-09T03:13:03Z"
+    },
+    "user22": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:06Z",
+      "last_seen": "2026-11-09T03:13:06Z"
+    },
+    "user23": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:09Z",
+      "last_seen": "2026-11-09T03:13:09Z"
+    },
+    "user24": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:12Z",
+      "last_seen": "2026-11-09T03:13:12Z"
+    },
+    "user25": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:15Z",
+      "last_seen": "2026-11-09T03:13:15Z"
+    },
+    "user26": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:18Z",
+      "last_seen": "2026-11-09T03:13:18Z"
+    },
+    "user27": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:21Z",
+      "last_seen": "2026-11-09T03:13:21Z"
+    },
+    "user28": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:24Z",
+      "last_seen": "2026-11-09T03:13:24Z"
+    },
+    "user29": {
+      "ips": [
+        "10.0.9.100"
+      ],
+      "services": [
+        "krbtgt"
+      ],
+      "enc_types": {},
+      "events": 1,
+      "failures": 1,
+      "first_seen": "2026-11-09T03:13:27Z",
+      "last_seen": "2026-11-09T03:13:27Z"
+    }
+  },
+  "services": {
+    "CIFS/DC01.corp.local": {
+      "accounts": [
+        "dave"
+      ],
+      "count": 1
+    },
+    "HOST/wks01.corp.local": {
+      "accounts": [
+        "admin_w",
+        "alice",
+        "bob",
+        "carol",
+        "dave"
+      ],
+      "count": 34
+    },
+    "HTTP/intranet.corp.local": {
+      "accounts": [
+        "admin_w",
+        "alice",
+        "bob",
+        "carol",
+        "dave"
+      ],
+      "count": 47
+    },
+    "HTTP/web01.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web02.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web03.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web04.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web05.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web06.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web07.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web08.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web09.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web10.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web11.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web12.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web13.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web14.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web15.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web16.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web17.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web18.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web19.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "HTTP/web20.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "LDAP/DC01.corp.local": {
+      "accounts": [
+        "dave"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql01.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql02.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql03.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql04.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql05.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql06.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql07.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql08.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql09.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql10.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql11.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql12.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql13.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql14.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql15.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql16.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql17.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql18.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql19.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "MSSQLSvc/sql20.corp.local:1433": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "cifs/DC01.corp.local": {
+      "accounts": [
+        "dave"
+      ],
+      "count": 1
+    },
+    "cifs/backup01.corp.local": {
+      "accounts": [
+        "svc_backup"
+      ],
+      "count": 35
+    },
+    "cifs/fs01.corp.local": {
+      "accounts": [
+        "admin_w",
+        "alice",
+        "bob",
+        "carol",
+        "dave"
+      ],
+      "count": 37
+    },
+    "cifs/print01.corp.local": {
+      "accounts": [
+        "admin_w",
+        "alice",
+        "bob",
+        "carol",
+        "dave"
+      ],
+      "count": 34
+    },
+    "krbtgt": {
+      "accounts": [
+        "admin_w",
+        "alice",
+        "bob",
+        "carol",
+        "dave",
+        "svc_backup",
+        "user00",
+        "user01",
+        "user02",
+        "user03",
+        "user04",
+        "user05",
+        "user06",
+        "user07",
+        "user08",
+        "user09",
+        "user10",
+        "user11",
+        "user12",
+        "user13",
+        "user14",
+        "user15",
+        "user16",
+        "user17",
+        "user18",
+        "user19",
+        "user20",
+        "user21",
+        "user22",
+        "user23",
+        "user24",
+        "user25",
+        "user26",
+        "user27",
+        "user28",
+        "user29"
+      ],
+      "count": 58
+    },
+    "ldap/DC01.corp.local": {
+      "accounts": [
+        "admin_w",
+        "alice",
+        "bob",
+        "carol",
+        "dave"
+      ],
+      "count": 40
+    },
+    "svc_app01/app01.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app02/app02.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app03/app03.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app04/app04.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app05/app05.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app06/app06.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app07/app07.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app08/app08.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app09/app09.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app10/app10.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app11/app11.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app12/app12.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app13/app13.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app14/app14.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app15/app15.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app16/app16.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app17/app17.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app18/app18.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app19/app19.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    },
+    "svc_app20/app20.corp.local": {
+      "accounts": [
+        "alice"
+      ],
+      "count": 1
+    }
+  }
+}
